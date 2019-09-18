@@ -1,0 +1,13 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap";
+
+/* reset */
+h1 {
+  margin: 0;
+  font-weight: inherit;
+}
+
+body {
+  font-family: Roboto;
+  font-weight: 300;
+  color: red;
+}
