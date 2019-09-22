@@ -4,9 +4,11 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { NavBar } from './components/NavBar';
 import { pages } from './utils/pages';
 
+import './styles/global.css';
+
 function App() {
     return (
-        <div className="App">
+        <div>
             <BrowserRouter>
                 <NavBar pages={pages} />
                 <Switch>
